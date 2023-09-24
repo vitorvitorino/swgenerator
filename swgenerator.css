@@ -1,0 +1,113 @@
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(https://images.alphacoders.com/105/thumb-1920-1059616.jpg);
+    height: 100%;
+    filter: blur(3px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: blanchedalmond;
+    margin-bottom: 2rem;
+}
+
+button {
+    display: block;
+    margin: 5px auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    min-height: 400px;
+    max-height: 400px;
+    /* display: inline-block;  */
+    border-radius: 10% 0 0 10%; 
+}
+
+.info {
+    text-align: center;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 400px;
+    max-height: 400px;
+    /* display: inline-block; */
+    margin:  auto;
+    overflow: auto;
+    background-color: rgba(50,50,50,0.2);
+    backdrop-filter: blur(30px);
+    border-radius: 0 10% 10% 0;
+}
+
+.info p {
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.side {
+    display: flex;
+    flex-flow: row;
+}
+
+.hide {
+    display: none;
+}
+
+.header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: antiquewhite;
+    opacity: 0.1;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    padding: 15px;
+    border-radius: 10%;
+    background-color: rgba(0, 76, 139, 0.1);
+    cursor: pointer;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(0, 76, 139, 0.8);
+    transition: 0.5s ease;
+}
