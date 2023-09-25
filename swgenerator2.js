@@ -31,15 +31,16 @@ $(document).ready(function() {
 
         $.each(properties, function(index, value) {
             if (data[value] === undefined) {
-                $(`.${value}`).addClass('hide')
+                $(`.${value}`).addClass('d-none')
             } else {
-                $(`.${value}`).removeClass('hide') 
+                $(`.${value}`).removeClass('d-none') 
             }
         })
 
         // Class remover to show .info div
 
-        $('.info').removeClass('hide')
+        $('.info').removeClass('d-none')
+        $('img').removeClass('d-none')
     })
     }) 
 })
