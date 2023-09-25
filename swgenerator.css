@@ -1,21 +1,16 @@
 @font-face {
     font-family: 'Solo';
-    src: url('HanSoloLaser-Km4Z.otf');
+    src: url('fonts/HanSoloLaser-Km4Z.otf');
 }
 
 @font-face {
     font-family: 'MandaG';
-    src: url('MandaloreGradient-axx9x.otf');
+    src: url('fonts/MandaloreGradient-axx9x.otf');
 }
 
 @font-face {
     font-family: 'MandaL';
-    src: url('MandaloreLaser-x33B8.otf');
-}
-
-@font-face {
-    font-family: 'Sterilict';
-    src: url('Sterilict-L3aen.ttf');
+    src: url('fonts/MandaloreLaser-x33B8.otf');
 }
 
 body, html {
@@ -43,23 +38,6 @@ body::before {
     padding: 0;
 }
 
-/* Background image, gradient and blur */
-
-/* .bg-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(https://images.alphacoders.com/105/thumb-1920-1059616.jpg);
-    height: 100%;
-    width: 100%;
-    filter: blur(3px);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    overflow: hidden;
-    z-index: -1;
-} */
-
 /* Title, character name and info text */
 
 .__sw {
@@ -67,7 +45,6 @@ body::before {
     background: -webkit-linear-gradient(#575803, #fbff14);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* font-size: 5rem!important; */
     letter-spacing: 2px;
 }
 
@@ -139,6 +116,8 @@ button:hover {
     border-radius: 0 1rem 1rem 0;
     width: 59px;
   }
+
+  /* Desktop */
 
   @media (min-width: 769px) {
     img {
